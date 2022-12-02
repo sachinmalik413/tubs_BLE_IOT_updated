@@ -1,0 +1,1116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#040404"
+    tools:context=".activity.CustomActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/cutsom_activity_back_btn"
+                android:src="@drawable/ic_baseline_arrow_back_ios_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:gravity="center"
+                android:padding="10dp"
+                android:textColor="#fff"
+                android:text="Custom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="@drawable/default_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/custom_check_box_hydro_massage"
+                    android:button="@drawable/hydro_massage"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/hydro_massage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="#2E96AF"
+                    android:text="OFF"
+                    android:textSize="13dp"
+                    android:id="@+id/custom_hydro_on_off"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:textColor="#fff"
+                    android:text="Hydro  Massage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/custom_hydro_timer"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#7F7F7F"
+                    android:textSize="13dp"
+                    android:text="10 "
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+<LinearLayout
+    android:id="@+id/hydroseqlay"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_weight="1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/custom_hydro_sequence_tv"
+        android:layout_marginLeft="20dp"
+        android:textColor="#fff"
+        android:text="Sequence"
+        android:gravity="center"
+        android:layout_marginRight="6dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="OFF"
+        android:textColor="#2E96AF"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="13dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
+
+
+
+
+
+                <ImageView
+                    android:id="@+id/custom_hydro_massage_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/skybluesetting_icon" />
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="@drawable/default_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/air_massage_on_off"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/air_massage"
+                    android:layout_width="wrap_content"
+                    android:button="@drawable/air_massage"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="#427E4B"
+                    android:id="@+id/custom_air_massage_on_off"
+                    android:text="OFF"
+                    android:layout_marginTop="5dp"
+                    android:textSize="13dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="0dp"
+                    android:textColor="#fff"
+                    android:text="Air Massage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/custom_air_massage"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#7F7F7F"
+                    android:textSize="13dp"
+                    android:text="10 Min"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textColor="#fff"
+                android:text="SEQUENCE "
+                android:visibility="gone"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/airtogglelay"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/custom_air_massage_toggle"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="#fff"
+                    android:text="Toggle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="#427E4B"
+                    android:text="OFF"
+                    android:layout_marginTop="5dp"
+                    android:textSize="13dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:gravity="end"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/custom_air_massage_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/green_setting_icon" />
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="@drawable/default_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content">
+                <CheckBox
+                    android:id="@+id/checkbox_water_Fall"
+                    android:button="@drawable/waterfall"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/waterfall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/custom_water_fall_on_off"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="#BCAB65"
+                    android:text="OFF"
+                    android:layout_marginTop="5dp"
+                    android:textSize="13dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:textColor="#fff"
+                    android:text="Water Fall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/custom_water_fall_timer"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#7F7F7F"
+                    android:textSize="13dp"
+                    android:text="10 Min"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+<!--                <Switch-->
+<!--                    android:id="@+id/switch1"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:switchMinWidth="56dp"-->
+<!--                    android:checked="true"-->
+<!--                    android:textOff="OFF"-->
+<!--                    android:textOn="ON"/>-->
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/waterfalllay"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/custom_water_fall_sequence"
+                    android:layout_marginLeft="0dp"
+                    android:textColor="#fff"
+                    android:text="Sequence"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:text="OFF"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="#BCAB65"
+                    android:textSize="13dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_marginLeft="48dp"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+
+                <ImageView
+                    android:id="@+id/custom_water_fall_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/yellow_setting" />
+
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="@drawable/default_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/neck_fall_switch_on_off"
+                    android:button="@drawable/neck_fall"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/custom_neck_fall_on_off"
+                    android:layout_gravity="center"
+                    android:textColor="#2680EB"
+                    android:gravity="center"
+                    android:text="OFF"
+                    android:layout_marginTop="5dp"
+                    android:textSize="13dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:textColor="#fff"
+                    android:text="Neck Fall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/custom_neck_fall_timer"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#7F7F7F"
+                    android:textSize="13dp"
+                    android:text="10 Min"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <Switch
+                    android:layout_gravity="center"
+                    android:id="@+id/neck_fall_switch_on_off"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:switchMinWidth="56dp"
+                    android:checked="false"
+                    android:visibility="gone"
+                    android:textOff="OFF"
+                    android:textOn="ON"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/falltogglelay"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/fall_toggle"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="#fff"
+                    android:text="Toggle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="OFF"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#2680EB"
+                    android:textSize="13dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+
+            <Switch
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="56dp"
+                android:checked="false"
+                android:visibility="gone"
+                android:textOff="OFF"
+                android:textOn="ON"/>
+
+
+
+
+
+                <ImageView
+                    android:id="@+id/custom_neck_fall_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/blue_setting" />
+
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="@drawable/default_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/chroma_switch_on_off"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/cromalight"
+                android:button="@drawable/cromalight"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/custom_chroma_light_on_off"
+                    android:textColor="#6F3D60"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center"
+                    android:text="OFF"
+                    android:textSize="13dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:textColor="#fff"
+                    android:text="Chroma Light"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/custom_chroma_light_time"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#7F7F7F"
+                    android:textSize="13dp"
+                    android:text="10 Min"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <Switch
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:switchMinWidth="56dp"
+                    android:checked="false"
+                    android:visibility="gone"
+                    android:textOff="OFF"
+                    android:textOn="ON"/>
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_marginLeft="40dp"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/custom_activity_chroma_light_timer"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:gravity="end"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/custom_chroma_fall_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/dark_purple_setting" />
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="@drawable/default_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/custom_ozone"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="center"
+                    android:button="@drawable/ozone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/custom_ozone_timer_on_off"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="#8A7A9F"
+                    android:text="OFF"
+                    android:layout_marginTop="5dp"
+                    android:textSize="13dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:textColor="#fff"
+                    android:text="Ozone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/custom_ozone_timer"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#7F7F7F"
+                    android:textSize="13dp"
+                    android:text="10 Min"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <Switch
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:switchMinWidth="56dp"
+                    android:checked="false"
+                    android:textOff="OFF"
+                    android:visibility="gone"
+                    android:textOn="ON"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textColor="#fff"
+                android:text="SEQUENCE "
+                android:gravity="center"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+            <LinearLayout
+                android:layout_marginLeft="68dp"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="#fff"
+                    android:text="5 "
+                    android:textSize="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+
+                <ImageView
+                    android:id="@+id/custom_ozone_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/light_purple_setting" />
+
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="@drawable/default_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/custom_heater_on_off"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/heater_svg"
+                    android:layout_width="wrap_content"
+                    android:button="@drawable/heater_svg"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/custom_heater_timer_on_off"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="#fff"
+                    android:text="OFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:textColor="#fff"
+                    android:text="Heater Time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/custom_heater_timer"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#7F7F7F"
+                    android:textSize="13dp"
+                    android:text="05 Min"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <Switch
+                    android:id="@+id/custom_ozone"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:switchMinWidth="56dp"
+                    android:checked="false"
+                    android:textOff="OFF"
+                    android:visibility="gone"
+                    android:textOn="ON"/>
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_marginLeft="30dp"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/custom_heater_temp"
+                    android:textColor="#fff"
+                    android:text="HEATER TEMP "
+                    android:textSize="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+
+
+                <ImageView
+                    android:id="@+id/custom_heater_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/light_purple_setting" />
+
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="@drawable/default_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/custom_check_box_drain"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:button="@drawable/drain"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/custom_drain_timer_on_off"
+                    android:text="OFF"
+                    android:textSize="13dp"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:textColor="#fff"
+                    android:text="Drain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/custom_drain_timer"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#7F7F7F"
+                    android:textSize="13dp"
+                    android:text="10 Min"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <Switch
+                    android:id="@+id/custom_ozone"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:switchMinWidth="56dp"
+                    android:checked="false"
+                    android:textOff="OFF"
+                    android:visibility="gone"
+                    android:textOn="ON"/>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+                <ImageView
+                    android:id="@+id/custom_drain_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/light_purple_setting" />
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="@drawable/default_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content">
+
+
+                <CheckBox
+                    android:id="@+id/custom_check_box_cleaning"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:button="@drawable/clean_svg"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/checkbox_cleaning_on_off"
+                    android:textColor="#fff"
+                    android:text="OFF"
+                    android:visibility="gone"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:textColor="#fff"
+                    android:text="Cleaning"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/custom_cleaning_time"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#7F7F7F"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:text="10 Min"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textColor="#fff"
+                android:text="SEQUENCE "
+                android:gravity="center"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+
+
+
+                <ImageView
+                    android:id="@+id/cleaning_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/light_purple_setting" />
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

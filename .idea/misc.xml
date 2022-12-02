@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_bluetooth.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/activity_cascade_set_order.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/activity_custom.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/activity_custom_drain.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/activity_custom_heater.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/activity_custom_hydro_massage.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_custom_massage.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_custom_sequance.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/activity_default_message_activty.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/activity_home_page.xml" value="0.2703125" />
+        <entry key="app/src/main/res/layout/activity_hydro_message.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_operation.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/activity_shoulder_and_water_fall.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/activity_user.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/adapter_characteristic.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/adapter_device.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/custom_set_order.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/fragment_characteric_list.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/fragment_characteric_operation.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/fragment_service_list.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/layout_characteric_operation.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/layout_characteric_operation_button.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/layout_characteric_operation_et.xml" value="0.29243266353142366" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
